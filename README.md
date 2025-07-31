@@ -7,14 +7,14 @@ This project provides a comprehensive analysis of loan applicant data for a fict
 ## 📊 Project Components
 
 ### 1. **Data Sources**
-- `Bank_Loan.csv` / `financial_loan.csv`: Contains applicant details such as income, employment length, loan amount, loan status, etc.
-- Cleaned and transformed using SQL and Pandas for analysis and visualization.
+- `financial_loan.csv`: Contains applicant details such as income, employment length, loan amount, loan status, etc.
+- Cleaned and transformed using Pandas for analysis and visualization.
 
 ---
 
 ### 2. **SQL Analysis**
 📄 **File:** `Bank Loan Quries.sql`  
-🏷 **Tool:** MySQL / PostgreSQL  
+🏷 **Tool:** PostgreSQL  
 The SQL script performs key queries including:
 - Applicant loan details (amount, status, verification)
 - Loan approval trends by state and employment
@@ -94,30 +94,22 @@ This dashboard offers actionable insights for financial institutions to:
 
 ---
 
+## 🎯 Dashboard Overview
+
+<img width="1235" height="694" alt="image" src="https://github.com/user-attachments/assets/2436dca4-2bff-4ee3-8e01-ff96649d7c72" />
+
+
+---
+
 ## 🔧 Tools & Technologies
 
 | Tool              | Purpose                          |
 |-------------------|----------------------------------|
 | SQL               | Data querying and aggregation    |
-| Python (Pandas)   | EDA, data wrangling              |
+| Python            | EDA, data wrangling              |
 | Jupyter Notebook  | Interactive exploration          |
 | Power BI          | Dashboarding & storytelling      |
-| Excel             | Preliminary checks (optional)    |
-
----
-
-## 📁 Project Structure
-
-```
-📂 Bank-Loan-Analysis/
-│
-├── Bank_Loan.csv                  # Original dataset
-├── financial_loan.csv            # Cleaned dataset (if applicable)
-├── Bank Loan Quries.sql          # SQL analysis script
-├── Loan Insights.ipynb           # Python EDA notebook
-├── Financial Loan Dashboard.pbix # Power BI interactive report
-└── README.md                     # Project documentation
-```
+| Excel             | Preliminary checks               |
 
 ---
 
